@@ -2,6 +2,7 @@
 
 ## Primary Pattern Cards
 
+- `references/shared/boundaries/agent.md`
 - `references/shared/patterns/stable-prefix-cache.md`
 - `references/shared/patterns/filesystem-as-context.md`
 - `references/shared/patterns/attention-recirculation.md`

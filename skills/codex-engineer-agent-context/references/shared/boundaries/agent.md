@@ -1,23 +1,25 @@
-# Agent Skill Boundary
+# Agent Context Boundary
 
-Agent skills own operating systems for AI agents: workflows, context policies, tool boundaries, coding loops, verification loops, and eval-backed agent behavior.
+This skill owns the context architecture around AI agent work: what instructions load, when deeper references are selected, how task state is preserved, and how noisy exploration is isolated.
 
-## Agent Owns
+## This Skill Owns
 
-- Goal-directed tool loops
-- Tool permission and approval boundaries
-- Agent state, context, memory, and handoff policy
-- Failure modes, recovery paths, and verification gates
-- Coding-agent execution loops
-- AI behavior eval design when the task is about measuring AI output quality
+- Agent-facing context policies.
+- `AGENTS.md` trigger rules for context-management work.
+- Context-related `SKILL.md` workflows and reference maps.
+- File-backed memory, scratchpads, session summaries, and handoff policy.
+- Compression, recovery, rollback, and failure-evidence rules.
+- Subagent context isolation and result-merging boundaries.
 
-## Agent Does Not Own
+## This Skill Does Not Own
 
-- Product strategy, PRDs, product roadmaps, UX scope, or feature prioritization
-- GTM strategy, ICP, positioning, channels, launch motion, outbound, PLG, or sales motion
-- SEO, AEO, GEO, citation measurement, schema, or answer-ready content
+- Ordinary code implementation plans.
+- Product, business, market, search, or content strategy.
+- Broad AI theory or news summarization.
+- External-service operations such as sending, deleting, labeling, archiving, or purchasing.
+- Domain facts unless they affect the agent-facing context policy.
 
-When a request crosses into Product, GTM, or AEO territory, produce only the agent-facing requirements and call out the appropriate handoff skill.
+When a request crosses into another domain, produce only the agent-facing context requirements and keep domain-specific strategy out of this skill's active context.
 
 ## Hard Rules
 
