@@ -1,0 +1,9 @@
+interface:
+  display_name: "OpenClaw Engineer Agent Context"
+  short_description: "Design and audit context policies for coding agents"
+  icon_small: "./assets/icon-small.png"
+  icon_large: "./assets/icon.png"
+  default_prompt: "Use $openclaw-engineer-agent-context to audit this agent workflow context policy and propose concrete fixes."
+
+policy:
+  allow_implicit_invocation: false
