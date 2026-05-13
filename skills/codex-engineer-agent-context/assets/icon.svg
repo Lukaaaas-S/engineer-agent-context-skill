@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" role="img" aria-labelledby="title desc">
-  <title id="title">OpenClaw Engineer Agent Context</title>
+  <title id="title">Codex Engineer Agent Context</title>
   <desc id="desc">A layered context map icon with a focused central node.</desc>
   <defs>
     <linearGradient id="bg" x1="96" y1="96" x2="928" y2="928" gradientUnits="userSpaceOnUse">

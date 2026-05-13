@@ -1,9 +1,9 @@
 ---
-name: openclaw-engineer-agent-context
-description: "Engineer context systems for Codex repository work. Use when Codex needs to design, audit, or improve agent-facing context artifacts: AGENTS.md trigger rules, context-related SKILL.md files, agent memory files, context loading policies, session summaries, context compression, subagent context isolation, OpenClaw-style agent coordination, long-task recovery notes, rollback notes, or context bloat controls. Do not use for ordinary feature work, bug fixes, or general skill authoring unless the artifact controls agent context, memory, loading, compression, or recovery."
+name: codex-engineer-agent-context
+description: "Engineer context systems for Codex repository work. Use when Codex needs to design, audit, or improve agent-facing context artifacts: AGENTS.md trigger rules, context-related SKILL.md files, agent memory files, context loading policies, session summaries, context compression, subagent context isolation, coding-agent coordination, long-task recovery notes, rollback notes, or context bloat controls. Do not use for ordinary feature work, bug fixes, or general skill authoring unless the artifact controls agent context, memory, loading, compression, or recovery."
 ---
 
-# OpenClaw Engineer Agent Context
+# Codex Engineer Agent Context
 
 Use this skill to make agent context management practical, restorable, and small enough for Codex to act on. Focus on repository artifacts that control agent context, not generic AI theory or ordinary coding workflow.
 

@@ -1,6 +1,6 @@
 # Publishing Checklist
 
-- [ ] `skills/openclaw-engineer-agent-context/SKILL.md` validates.
+- [ ] `skills/codex-engineer-agent-context/SKILL.md` validates.
 - [ ] `policy.allow_implicit_invocation` is `false`.
 - [ ] No absolute local paths remain.
 - [ ] No private company information remains.

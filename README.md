@@ -1,4 +1,4 @@
-# OpenClaw Engineer Agent Context Skill
+# Codex Engineer Agent Context Skill
 
 Cloning this repository does not install the skill. To activate it, copy the skill folder into a Codex-recognized skills directory.
 
@@ -6,12 +6,12 @@ This repository packages a Codex skill for designing and auditing context manage
 
 ## Skill Name
 
-`openclaw-engineer-agent-context`
+`codex-engineer-agent-context`
 
 Use it explicitly:
 
 ```text
-Use $openclaw-engineer-agent-context.
+Use $codex-engineer-agent-context.
 Audit this agent workflow context policy and propose concrete fixes.
 ```
 
@@ -32,7 +32,7 @@ Recommended official user-scope path:
 
 ```bash
 mkdir -p "$HOME/.agents/skills"
-cp -R skills/openclaw-engineer-agent-context "$HOME/.agents/skills/"
+cp -R skills/codex-engineer-agent-context "$HOME/.agents/skills/"
 ```
 
 Restart Codex if the skill does not appear.
@@ -41,7 +41,7 @@ Restart Codex if the skill does not appear.
 
 ```bash
 mkdir -p .agents/skills
-cp -R skills/openclaw-engineer-agent-context .agents/skills/
+cp -R skills/codex-engineer-agent-context .agents/skills/
 ```
 
 This only affects that repository.
@@ -52,14 +52,14 @@ Some Codex setups may still recognize `~/.codex/skills` for user-local skills. I
 
 ```bash
 mkdir -p "$HOME/.codex/skills"
-cp -R skills/openclaw-engineer-agent-context "$HOME/.codex/skills/"
+cp -R skills/codex-engineer-agent-context "$HOME/.codex/skills/"
 ```
 
 ## Existing Skill Conflicts
 
 If you already have a skill with the same `name`, Codex will not merge them. Both may appear in the skill selector. Rename or disable one if needed.
 
-This public package uses `openclaw-engineer-agent-context` to reduce conflict risk with local skills named `engineer-agent-context`.
+This public package uses `codex-engineer-agent-context` to reduce conflict risk with local skills named `engineer-agent-context`.
 
 ## What This Skill Is For
 
@@ -85,5 +85,5 @@ This public package uses `openclaw-engineer-agent-context` to reduce conflict ri
 If you have the Codex skill-creator validator available:
 
 ```bash
-python3 /path/to/skill-creator/scripts/quick_validate.py skills/openclaw-engineer-agent-context
+python3 /path/to/skill-creator/scripts/quick_validate.py skills/codex-engineer-agent-context
 ```

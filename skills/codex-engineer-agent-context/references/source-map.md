@@ -1,4 +1,4 @@
-# Source Map: openclaw-engineer-agent-context
+# Source Map: codex-engineer-agent-context
 
 ## Primary Pattern Cards
 
